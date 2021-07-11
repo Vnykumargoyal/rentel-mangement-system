@@ -1,0 +1,103 @@
+/* .dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+  color: #fff;
+}
+
+.dropdown-menu li:hover > .sub-menu {
+  visibility: visible;
+  display: block;
+} */
+nav {
+	/* margin: 50px 0;
+	background-color: #E64A19; */
+}
+
+#container{
+  text-align: center;
+}
+
+.ddSub li a{
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  line-height: 42px;
+  padding: 0px 17px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  text-align: left
+}
+
+.ddSub li a ul li a{
+  background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 42px;
+    padding: 0px 17px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    text-align: left
+
+}
+
+nav ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
+	}
+
+nav ul li {
+	display:inline-block;
+  background: transparent;
+	/* background-color: #E64A19; */
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover {
+	background-color: transparent;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 60px; /* the height of the main nav */
+  z-index: 1;
+  left: 50%;
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:150px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+  background: black;
+	top:-60px;
+	left:75px;
+}
+
+
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ''; }
+li > a:only-child:after { content: ''; }

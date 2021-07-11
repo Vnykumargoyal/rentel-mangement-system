@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container">
+    <div class="row w-100">
+      <div class="col-sm-12 col-md-6">
+        <a class="navbar-brand text-white" >{{title | uppercase}}</a>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div id="container">
+          <nav>
+            <ul>
+              <li><a href="#">Select Location</a>
+                <ul class="ddSub">
+                  <li *ngFor="let data of headerList"><a href="#">{{data.name}}</a>
+                    <ul>
+                      <li *ngFor="let item of headerSubList"><a routerLink="/Equipment Catalog">{{item.name}}</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</nav>

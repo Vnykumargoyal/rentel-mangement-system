@@ -1,0 +1,13 @@
+<div class="container ">
+  <div class="row " >
+    <div class="col-xm-12 col-sm-6 col-md-4 content text-center" *ngFor="let data of listItems">
+      <div class="card" style="width: 18rem;" >
+        <!-- <img class="card-img-top" src="../../../../assets/img/booms.jpg" alt="Card image cap"> -->
+        <img class="card-img-top" [src]="data.image" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text" >{{data.name}}<span class="caret right"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

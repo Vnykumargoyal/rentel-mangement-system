@@ -1,0 +1,21 @@
+.content{
+
+  position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+
+}
+
+.content p{
+  text-align: center;
+  font-size:15px;
+  font-weight: 600;
+  margin-bottom:0px
+}
+
+.content div{
+  font-weight:400;
+  text-align: center;
+  margin-top:10px
+}

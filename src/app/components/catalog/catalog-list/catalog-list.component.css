@@ -1,0 +1,42 @@
+.card-body{
+  background: #1261A0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.content{
+  margin:20px 0px;
+}
+
+.card{
+  /* height: 250px; */
+  width: 18rem;
+  margin: auto;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+img{
+  height:250px;
+  width: 18rem;
+  padding:20px;
+}
+
+.caret {
+  width: 0;
+  height: 0;
+  /* display: inline-block; */
+  margin-top: 5px;
+  float: right;
+  border: 7px solid transparent;
+}
+.caret.down{
+  border-top-color: black;
+}
+.caret.right{
+  border-left-color: #fff;
+}
+
+
